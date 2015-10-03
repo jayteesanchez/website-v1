@@ -1,7 +1,5 @@
 var mongoose = require('mongoose');
-var config = require('./config');
-
-mongoose.connect(config.database);
+// mongoose.connect( 'mongodb://admin:1234@ds031671.mongolab.com:31671/heroku_7bkb7xrs');
 
 var Tech = require('./models/Tech');
 

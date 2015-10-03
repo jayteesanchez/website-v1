@@ -34,13 +34,13 @@ class Home extends React.Component {
             Located in Los Angeles, CA<br/><br/>
             Former Retail Manager,<br/>
             Graduate of General Assembly WDI<br/><br/>
-            Sneaker Collector,<br/>
-            Lakers & Charger Fan,<br/>
-            Dog Lover<br/><br/>
+            Lakers & Chargers Fan,
+            Dog Lover &
+            Sneaker Collector<br/><br/>
             Strengths:<br/>
-            Fast-Learner, Team-Player,<br/>
+            Fast-Learner, Team-Player &
             Detail-Oriented<br/><br/>
-            Weaknesses: Milk, Spiders<br/>
+            Weaknesses: Milk & Spiders<br/>
           </text>
         </div>
         <div className='homeImage fadeIn animated shake animated-8'>
