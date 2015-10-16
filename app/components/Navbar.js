@@ -35,7 +35,7 @@ class Navbar extends React.Component {
               <a href='/' className="navbar-brand">
                 <img id='name-brand' className=' col-xs-12 shake animated-8' src='https://openmerchantaccount.com/img/nameBrand.png'/>
               </a>
-            </div></br>
+            </div>
             <div className='col-xs-12 col-sm-6 col-sm-offset-1 col-md-5 col-md-offset-2'>
               <span className='navbar-right nav-links' role="presentation">
               <Link to='/resume'>

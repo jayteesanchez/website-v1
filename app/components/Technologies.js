@@ -33,7 +33,7 @@ class Technology extends React.Component {
   render() {
     return (
       <div className='container'>
-        <div className='col-xs-6 col-sm-8 col-md-8 col-sm-offset-1 tech-images text-center'>
+        <div className='col-xs-6 col-sm-8 col-md-8 col-sm-offset-1 col-md-offset-2 tech-images text-center'>
           <text className="tech-text">My specialties are in...</text><br/>
           <img className='flipInX animated-1 tech-image' src='http://moduscreate.com/wp-content/uploads/2014/03/react-opti.png'/>
           <img className='flipInX animated-2 tech-image' src='https://node-os.com/images/nodejs.png'/>
