@@ -29,7 +29,7 @@ class Home extends React.Component {
         <div id='home-container' className='col-xs-6 col-sm-6 col-md-6 homeText fadeIn animated'>
           <text>
             Hello, I'm<br/><br/>
-            <img className='shake animated-8' src='https://openmerchantaccount.com/img/nameBrand.png'/><br/><br/>
+            <img className='shake animated-8' src='http://i.imgur.com/f9Q1pJj.png'/><br/><br/>
             a 28 Year Old Web Developer,<br/>
             Located in Los Angeles, CA<br/><br/>
             Former Retail Manager,<br/>
@@ -44,7 +44,7 @@ class Home extends React.Component {
           </text>
         </div>
         <div className='homeImage fadeIn animated shake animated-8'>
-          <img src='https://openmerchantaccount.com/img/IMG_6426.png' width='70%' height='70%'/>
+          <img src='http://i.imgur.com/3vd5bBx.jpg' width='70%' height='70%'/>
         </div>
       </div>
     )

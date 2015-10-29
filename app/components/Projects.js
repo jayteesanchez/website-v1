@@ -36,7 +36,7 @@ class Project extends React.Component {
             <text className='project-title'>Choices</text>
             <div className="panel-heading">
               <a href='https://making-choices.herokuapp.com/'>
-                <img id='project-img' src='https://openmerchantaccount.com/img/Screen Shot 2015-10-01 at 3.11.50 AM.png'/>
+                <img id='project-img' src='http://i.imgur.com/dS9nhGc.png'/>
               </a>
             </div>
             <div className="panel-body">
@@ -52,7 +52,7 @@ class Project extends React.Component {
             <text className="project-title">Sidewalk Sailors</text>
             <div className="panel-heading">
               <a href='https://lit-anchorage-2445.herokuapp.com/'>
-                <img id='project-img' src='https://openmerchantaccount.com/img/Screen Shot 2015-10-01 at 3.11.09 AM.png'/>
+                <img id='project-img' src='http://i.imgur.com/SmodBRA.png'/>
               </a>
             </div>
             <div className="panel-body">

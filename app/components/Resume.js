@@ -33,7 +33,7 @@ class Resume extends React.Component {
     return (
       <div className='container'>
         <div className='panel panel-default resume-panel fadeIn animated'>
-            <img id='resume-img' src='https://openmerchantaccount.com/img/Screen Shot 2015-10-01 at 4.13.07 AM.png'/>
+            <img id='resume-img' src='http://i.imgur.com/5nMp4sA.png'/>
         </div>
       </div>
     )

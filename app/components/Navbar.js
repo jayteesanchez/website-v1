@@ -33,51 +33,51 @@ class Navbar extends React.Component {
           <div className="container-fluid">
             <div className='navbar-header shake animated'>
               <a href='/' className="navbar-brand">
-                <img id='name-brand' className=' col-xs-12 shake animated-8' src='https://openmerchantaccount.com/img/nameBrand.png'/>
+                <img id='name-brand' className=' col-xs-12 shake animated-8' src='http://i.imgur.com/f9Q1pJj.png'/>
               </a>
             </div>
             <div className='col-xs-12 col-sm-6 col-sm-offset-1 col-md-5 col-md-offset-2'>
               <span className='navbar-right nav-links' role="presentation">
               <Link to='/resume'>
-                <img className='shake animated-5' id='resume' src='https://openmerchantaccount.com/img/newRes.png'/>
+                <img className='shake animated-5' id='resume' src='http://i.imgur.com/AxidOCl.png'/>
               </Link>
               </span>
               <span className='navbar-right nav-links' role="presentation">
                 <Link to='/projects'>
-                <img className='shake animated-6' id='projects' src='https://openmerchantaccount.com/img/newProj.png'/>
+                <img className='shake animated-6' id='projects' src='http://i.imgur.com/PqQGB5D.png'/>
                 </Link>
               </span>
               <span className='navbar-right nav-links' role="presentation">
                 <Link to='/technologies'>
-                <img className='shake animated-7' id='technologies' src='https://openmerchantaccount.com/img/newTech.png'/>
+                <img className='shake animated-7' id='technologies' src='http://i.imgur.com/sNlIUam.png'/>
                 </Link>
               </span>
             </div>
             <div className='col-xs-12 col-sm-3 col-md-2 col-md-offset-1'>
               <span className='navbar-right' role="presentation">
                 <a className='icon-nav' href='mailto:jaytee.sanchez@gmail.com' id='resumeNav'>
-                <img className='shake animated-1' src='https://openmerchantaccount.com/img/emailjsnew.png'/>
+                <img className='shake animated-1' src='http://i.imgur.com/3Q9Z3Bp.png'/>
                   <span className='btnBefore'></span>
                   <span className='btnAfter'></span>
                 </a>
               </span>
               <span className='navbar-right' role="presentation">
                 <a className='icon-nav' href='https://github.com/jayteesanchez' id='resumeNav'>
-                <img className='shake animated-2' src='https://openmerchantaccount.com/img/githubnew.png'/>
+                <img className='shake animated-2' src='http://i.imgur.com/XZ3guXu.png'/>
                   <span className='btnBefore'></span>
                   <span className='btnAfter'></span>
                 </a>
               </span>
               <span className='navbar-right' role="presentation">
                 <a className='icon-nav' href='https://www.facebook.com/jaytee.sanchez' id='resumeNav'>
-                <img className='shake animated-3' src='https://openmerchantaccount.com/img/facebookjsnew.png'/>
+                <img className='shake animated-3' src='http://i.imgur.com/m00Eyei.png'/>
                   <span className='btnBefore'></span>
                   <span className='btnAfter'></span>
                 </a>
               </span>
               <span className='navbar-right' role="presentation">
                 <a className='icon-nav' href='https://www.linkedin.com/in/jayteesanchez' id='resumeNav'>
-                <img className='shake animated-4' src='https://openmerchantaccount.com/img/linkedinjnew2.png'/>
+                <img className='shake animated-4' src='http://i.imgur.com/QBvvrMx.png'/>
                   <span className='btnBefore'></span>
                   <span className='btnAfter'></span>
                 </a>
