@@ -30,14 +30,13 @@ class Home extends React.Component {
           <text>
             Hello, I'm<br/><br/>
             <img className='shake animated-8' src='http://i.imgur.com/f9Q1pJj.png'/><br/><br/>
-            a 28 Year Old Web Developer,<br/>
+            Full-Stack Web Developer<br/>
             Located in Los Angeles, CA<br/><br/>
             Former Retail Manager,<br/>
             Graduate of General Assembly WDI<br/><br/>
             Lakers & Chargers Fan,
             Dog Lover &
             Sneaker Collector<br/><br/>
-            Strengths:<br/>
             Fast-Learner, Team-Player &
             Detail-Oriented<br/><br/>
             Weaknesses: Milk & Spiders<br/>

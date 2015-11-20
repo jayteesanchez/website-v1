@@ -39,7 +39,7 @@ class Navbar extends React.Component {
             <div className='col-xs-12 col-sm-6 col-sm-offset-1 col-md-5 col-md-offset-2'>
               <span className='navbar-right nav-links' role="presentation">
               <Link to='/resume'>
-                <img className='shake animated-5' id='resume' src='http://i.imgur.com/AxidOCl.png'/>
+                <img className='shake animated-5 nav-links' id='resume' src='http://i.imgur.com/AxidOCl.png'/>
               </Link>
               </span>
               <span className='navbar-right nav-links' role="presentation">

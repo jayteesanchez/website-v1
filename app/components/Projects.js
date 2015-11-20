@@ -31,7 +31,7 @@ class Project extends React.Component {
   render() {
     return (
       <div className='container fadeIn animated'>
-        <div className='col-xs-10 col-sm-10 col-md-10 col-md-offset-1'>
+        <div className='col-xs-10 col-sm-12 col-md-10 col-md-offset-1'>
           <div className="panel panel-default">
             <text className='project-title'>Choices</text>
             <div className="panel-heading">
