@@ -38,13 +38,13 @@ class Navbar extends React.Component {
             </span>
             <div className='col-xs-12 col-sm-6 col-sm-offset-1 col-md-5 col-md-offset-1'>
               <span className='navbar-right' role="presentation">
-              <Link className='nav-links' to='/resume'>
-                <img className='shake animated-5' id='resume' src='/img/newRes.png'/>
+              <Link to='/resume' className='nav-links' id='resume'>
+                <img className='shake animated-5'  src='/img/newRes.png'/>
               </Link>
               </span>
               <span className='navbar-right' role="presentation">
-                <Link className='nav-links' to='/projects'>
-                <img className='shake animated-6' id='projects' src='/img/newProj.png'/>
+                <Link to='/projects' className='nav-links' id='projects'>
+                <img className='shake animated-6' src='/img/newProj.png'/>
                 </Link>
               </span>
               <span className='navbar-right' role="presentation">
