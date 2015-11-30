@@ -14,8 +14,8 @@ class Resume extends React.Component {
     ResumeStore.listen(this.onChange);
     document.getElementById('name-brand').style.opacity = '';
     document.getElementById('resume').className = 'current-state';
-    document.getElementById('technologies').className = '';
-    document.getElementById('projects').className = '';
+    document.getElementById('technologies').className = 'nav-links';
+    document.getElementById('projects').className = 'nav-links';
 
   }
 
@@ -32,8 +32,8 @@ class Resume extends React.Component {
   render() {
     return (
       <div className='container'>
-        <div className='panel panel-default resume-panel fadeIn animated'>
-            <img id='resume-img' src='http://i.imgur.com/5nMp4sA.png'/>
+        <div className='panel panel-default resume-panel fadeIn animated  col-xs-9 col-xs-offset-1 col-sm-9 col-sm-offset-1 col-md-9 col-md-offset-1'>
+            <img id='resume-img' src='/img/Resume.png'/>
         </div>
       </div>
     )

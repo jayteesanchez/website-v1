@@ -30,54 +30,54 @@ class Navbar extends React.Component {
   render() {
     return (
        <nav className="navbar fadeIn animated">
-          <div className="container-fluid">
-            <div className='navbar-header shake animated'>
-              <a href='/' className="navbar-brand">
-                <img id='name-brand' className=' col-xs-12 shake animated-8' src='http://i.imgur.com/f9Q1pJj.png'/>
-              </a>
-            </div>
-            <div className='col-xs-12 col-sm-6 col-sm-offset-1 col-md-5 col-md-offset-2'>
-              <span className='navbar-right nav-links' role="presentation">
-              <Link to='/resume'>
-                <img className='shake animated-5 nav-links' id='resume' src='http://i.imgur.com/AxidOCl.png'/>
+          <div className="container">
+            <span className='navbar-header shake animated'>
+              <Link to='/' className="navbar-brand">
+                <img id='name-brand' className=' col-xs-12 shake animated-8' src='/img/nameBrand.png'/>
+              </Link>
+            </span>
+            <div className='col-xs-12 col-sm-6 col-sm-offset-1 col-md-5 col-md-offset-1'>
+              <span className='navbar-right' role="presentation">
+              <Link className='nav-links' to='/resume'>
+                <img className='shake animated-5' id='resume' src='/img/newRes.png'/>
               </Link>
               </span>
-              <span className='navbar-right nav-links' role="presentation">
-                <Link to='/projects'>
-                <img className='shake animated-6' id='projects' src='http://i.imgur.com/PqQGB5D.png'/>
+              <span className='navbar-right' role="presentation">
+                <Link className='nav-links' to='/projects'>
+                <img className='shake animated-6' id='projects' src='/img/newProj.png'/>
                 </Link>
               </span>
-              <span className='navbar-right nav-links' role="presentation">
-                <Link to='/technologies'>
-                <img className='shake animated-7' id='technologies' src='http://i.imgur.com/sNlIUam.png'/>
+              <span className='navbar-right' role="presentation">
+                <Link to='/technologies' className='nav-links' id='technologies'>
+                <img className='shake animated-7'  src='/img/newTech.png'/>
                 </Link>
               </span>
             </div>
-            <div className='col-xs-12 col-sm-3 col-md-2 col-md-offset-1'>
+            <div className='col-xs-12 col-sm-3 col-md-3 col-md-offset-1'>
               <span className='navbar-right' role="presentation">
                 <a className='icon-nav' href='mailto:jaytee.sanchez@gmail.com' id='resumeNav'>
-                <img className='shake animated-1' src='http://i.imgur.com/3Q9Z3Bp.png'/>
+                <img className='shake animated-1' src='/img/emailjsnew.png'/>
                   <span className='btnBefore'></span>
                   <span className='btnAfter'></span>
                 </a>
               </span>
               <span className='navbar-right' role="presentation">
                 <a className='icon-nav' href='https://github.com/jayteesanchez' id='resumeNav'>
-                <img className='shake animated-2' src='http://i.imgur.com/XZ3guXu.png'/>
+                <img className='shake animated-2' src='/img/githubnew.png'/>
                   <span className='btnBefore'></span>
                   <span className='btnAfter'></span>
                 </a>
               </span>
               <span className='navbar-right' role="presentation">
                 <a className='icon-nav' href='https://www.facebook.com/jaytee.sanchez' id='resumeNav'>
-                <img className='shake animated-3' src='http://i.imgur.com/m00Eyei.png'/>
+                <img className='shake animated-3' src='/img/facebookjsnew.png'/>
                   <span className='btnBefore'></span>
                   <span className='btnAfter'></span>
                 </a>
               </span>
               <span className='navbar-right' role="presentation">
                 <a className='icon-nav' href='https://www.linkedin.com/in/jayteesanchez' id='resumeNav'>
-                <img className='shake animated-4' src='http://i.imgur.com/QBvvrMx.png'/>
+                <img className='shake animated-4' src='/img/linkedinjnew2.png'/>
                   <span className='btnBefore'></span>
                   <span className='btnAfter'></span>
                 </a>

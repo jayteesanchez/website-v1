@@ -41,7 +41,7 @@ app.use('/api', apiRoutes);
 
 // DEFINED ROUTES ARE IN HERE >> routes, ie './routes/index'
 
-app.use('/', function(req, res) {
+app.use('/*', function(req, res) {
   Router.run(routes, req.path, function(Handler, state) {
     var html = React.renderToString(React.createElement(Handler));
     var page = swig.renderFile('views/index.html', { html: html });

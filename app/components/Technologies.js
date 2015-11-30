@@ -13,9 +13,9 @@ class Technology extends React.Component {
   componentDidMount() {
     TechnologyStore.listen(this.onChange);
     document.getElementById('name-brand').style.opacity = '';
-    document.getElementById('resume').className = '';
+    document.getElementById('resume').className = 'nav-links';
     document.getElementById('technologies').className = 'current-state';
-    document.getElementById('projects').className = '';
+    document.getElementById('projects').className = 'nav-links';
   }
 
   componentWillUnmount() {

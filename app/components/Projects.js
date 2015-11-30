@@ -13,8 +13,8 @@ class Project extends React.Component {
   componentDidMount() {
     ProjectStore.listen(this.onChange);
     document.getElementById('name-brand').style.opacity = '';
-    document.getElementById('resume').className = '';
-    document.getElementById('technologies').className = '';
+    document.getElementById('resume').className = 'nav-links';
+    document.getElementById('technologies').className = 'nav-links';
     document.getElementById('projects').className = 'current-state';
   }
 
