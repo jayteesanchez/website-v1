@@ -32,9 +32,7 @@ class Resume extends React.Component {
   render() {
     return (
       <div className='container'>
-        <div className='panel panel-default resume-panel fadeIn animated  col-xs-9 col-xs-offset-1 col-sm-9 col-sm-offset-1 col-md-9 col-md-offset-1'>
-            <img id='resume-img' src='/img/Resume.png'/>
-        </div>
+        <h1> Under Construction... Please click the LinkedIn Link for Information</h1>       
       </div>
     )
   }
