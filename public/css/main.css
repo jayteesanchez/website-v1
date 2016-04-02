@@ -9,15 +9,12 @@ body {
 /*  background-color: black;
 */}
 
+
 #name-brand {
   padding-top: 5px;
   padding-left: 0px;
 }
 
-.navbar-right {
-  padding-right: 5%;
-  padding-top: 5%;
-}
 
 .nav-links {
   position: relative;
@@ -40,9 +37,13 @@ body {
    width: 100%;
 }
 
+.no-margin {
+  margin: 1% 0;
+  padding: 0;
+  left: 5%;
+}
 
 nav {
-  padding-right: 0px;
   padding-bottom: 5%;
 }
 .icon-nav{
@@ -104,7 +105,7 @@ transition: width 0.5s ease, height 0.5s ease 0.5s, border-top-right-radius 0.1s
 
 footer {
   border-bottom: 1px solid #e2cc67;
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
 .homeImage {
@@ -164,6 +165,7 @@ footer {
 
 .project-title {
   font-size: 27px;
+  text-shadow: 1px 1px 1px #aaa;
 }
 
 .project-text {
