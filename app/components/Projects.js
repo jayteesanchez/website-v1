@@ -33,7 +33,7 @@ class Project extends React.Component {
       <div className='container fadeIn animated'>
         <div className='col-xs-10 col-sm-12 col-md-10 col-md-offset-1'>
           <div className="panel panel-default">
-            <text className='project-title'>Choices</text>
+            <text className='project-title'>Choices - 2015</text>
             <div className="panel-heading">
               <a href='https://making-choices.herokuapp.com/'>
                 <img id='project-img' src='http://i.imgur.com/dS9nhGc.png'/>
@@ -49,7 +49,7 @@ class Project extends React.Component {
             </div>
           </div>
           <div className="panel panel-default">
-            <text className="project-title">Sidewalk Sailors</text>
+            <text className="project-title">Sidewalk Sailors - 2015</text>
             <div className="panel-heading">
               <a href='https://lit-anchorage-2445.herokuapp.com/'>
                 <img id='project-img' src='http://i.imgur.com/SmodBRA.png'/>
