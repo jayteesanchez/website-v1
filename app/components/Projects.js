@@ -31,12 +31,18 @@ class Project extends React.Component {
   render() {
     return (
       <div className='container fadeIn animated'>
-        <div className='col-xs-10 col-sm-12 col-md-10 col-md-offset-1'>
+        <div className='col-xs-10 col-sm-10 col-md-8 col-md-offset-2'>
+          <div className="panel panel-default text-center">
+            <br></br>
+            <text className='project-title'>2016 - Coming Soon!</text>
+            <br></br>
+            <br></br>
+          </div> 
           <div className="panel panel-default">
-            <text className='project-title'>Choices - 2015</text>
+            <text className='project-title'>&nbsp;&nbsp;Choices - 2015</text>
             <div className="panel-heading">
               <a href='https://making-choices.herokuapp.com/'>
-                <img id='project-img' src='http://i.imgur.com/dS9nhGc.png'/>
+                <img id='project-img' src='http://i.imgur.com/dS9nhGc.png' />
               </a>
             </div>
             <div className="panel-body">
@@ -49,10 +55,10 @@ class Project extends React.Component {
             </div>
           </div>
           <div className="panel panel-default">
-            <text className="project-title">Sidewalk Sailors - 2015</text>
+            <text className="project-title">&nbsp;&nbsp;Sidewalk Sailors - 2015</text>
             <div className="panel-heading">
               <a href='https://lit-anchorage-2445.herokuapp.com/'>
-                <img id='project-img' src='http://i.imgur.com/SmodBRA.png'/>
+                <img id='project-img' src='http://i.imgur.com/SmodBRA.png' />
               </a>
             </div>
             <div className="panel-body">
