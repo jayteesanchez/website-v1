@@ -30,9 +30,8 @@ class Navbar extends React.Component {
   render() {
     return (
        <nav className="navbar fadeIn animated">
-          <div className="container">
           <div className="row">
-            <div className="col-xs-12 col-sm-12 col-md-2">
+            <div className="col-xs-12 col-sm-12 col-md-2 xmargbot">
               <span className='navbar-header shake animated'>
                 <Link to='/' className="navbar-brand">
                   <img id='name-brand' className=' col-xs-12 shake animated-8' src='/img/nameBrand.png'/>
@@ -64,7 +63,6 @@ class Navbar extends React.Component {
             </div>
                        
           </div>
-        </div>
       </nav>
     );
   }
