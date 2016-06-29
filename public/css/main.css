@@ -37,6 +37,10 @@ body {
    width: 100%;
 }
 
+.xmargbot {
+  margin-bottom:40px;  
+}
+
 .no-margin {
   margin: 1% 0;
   padding: 0;
