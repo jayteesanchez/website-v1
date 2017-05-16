@@ -6,13 +6,14 @@ html {
 body {
   color: #e2cc67;
   font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif;
+  height: 100vh;
 /*  background-color: black;
 */}
 
 
 #name-brand {
   padding-top: 5px;
-  padding-left: 0px;
+  padding-left: 30px;
 }
 
 
